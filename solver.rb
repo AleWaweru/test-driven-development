@@ -7,7 +7,9 @@ class Solver
     (1..number).reduce(:*)
   end
 
- 
+  def self.reverse(word)
+    word.reverse
+  end
 
   def self.fizzbuzz(number)
     if (number % 3).zero? && (number % 5).zero?
