@@ -1,3 +1,6 @@
+
+require_relative 'solver'
+
 RSpec.describe Solver do
   describe '#factorial' do
     it 'returns 1 for factorial of 0' do
