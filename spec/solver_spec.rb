@@ -18,5 +18,4 @@ describe Solver do
       expect { solver.factorial(-3) }.to raise_error(ArgumentError)
     end
   end
-
 end
