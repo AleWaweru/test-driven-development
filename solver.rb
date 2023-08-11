@@ -9,7 +9,7 @@ class Solver
   end
 
   def reverse(word)
-    return word.reverse
+    word.reverse
   end
 
   def fizzbuzz(num)

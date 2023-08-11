@@ -1,8 +1,7 @@
-
 require_relative '../solver'
 
 describe Solver do
-  let(:solver) { Solver.new } 
+  let(:solver) { Solver.new }
 
   describe '#factorial' do
     it 'returns 1 for 0' do
