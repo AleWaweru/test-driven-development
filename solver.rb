@@ -7,4 +7,9 @@ class Solver
     (1..num).each { |i| result *= i }
     result
   end
+
+  def reverse(word)
+    return word.reverse
+  end
+  
 end
