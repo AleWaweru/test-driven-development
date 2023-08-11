@@ -1,8 +1,8 @@
-# In the test file (e.g., solver_spec.rb)
+
 require_relative '../solver'
 
 describe Solver do
-  let(:solver) { Solver.new } # Create an instance of the Solver class
+  let(:solver) { Solver.new } 
 
   describe '#factorial' do
     it 'returns 1 for 0' do
